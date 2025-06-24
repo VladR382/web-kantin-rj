@@ -1,0 +1,181 @@
+body {
+    background-color: #ffffff; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2, h3 {
+    color: #d63384;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #d63384;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #c31e6d;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+input[type='number'] {
+    max-width: 100px;
+}
+
+.navbar-custom { 
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    background-color: rgba(52, 58, 64, 0.9); 
+}
+
+.navbar-brand {
+    font-family: 'Georgia', serif; 
+    color: #d63384; 
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.navbar-brand span {
+    color: #e2d794;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    margin-right: 15px;
+    color: rgba(255,255,255,0.55);
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #d63384;
+}
+
+.home-hero {
+    background: url('img/background_home.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg,rgb(255, 255, 255) 8%, rgba(255, 255, 255, 0) 20%);
+    z-index: 1;
+}
+
+.home-hero .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.home-hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 30px 0;
+    margin-top: auto;
+    text-align: center;
+}
+
+.modal-body .table td, .modal-body .table th {
+    vertical-align: middle;
+}
+
+.quantity-input-group .form-control {
+    text-align: center;
+}
+
+.quantity-input-group {
+    max-width: 120px;
+}
+
+.quantity-input-group .form-control::-webkit-outer-spin-button,
+.quantity-input-group .form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity-input-group .btn {
+    border-radius: 0.25rem;
+}
+.quantity-input-group .btn:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.quantity-input-group .btn:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.quantity-input-group .form-control {
+    border-radius: 0;
+}
+
+.card.shadow-sm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+@media (max-width: 768px) {
+    .home-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-hero p {
+        font-size: 1.2rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
