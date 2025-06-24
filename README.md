@@ -17,11 +17,11 @@ Ini adalah aplikasi web sederhana untuk sistem pemesanan di "Kantin R6J". Aplika
 ## Cara Instalasi
 1.  **Clone repositori ini:**
     ```bash
-    git clone [https://github.com/username-anda/nama-repo-anda.git](https://github.com/username-anda/nama-repo-anda.git)
+    git clone https://github.com/VladR382/web-kantin-rj.git
     ```
 2.  **Pindah ke direktori proyek:**
     ```bash
-    cd nama-repo-anda
+    cd web-kantin-rj
     ```
 3.  **Buat Database:**
     - Buat database baru di MySQL (misalnya dengan nama `kantin_r6j`).
